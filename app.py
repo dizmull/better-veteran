@@ -279,7 +279,7 @@ with gr.Blocks(css=CSS, title=APP_NAME, fill_height=True) as demo:
                     with gr.Row(elem_classes="scan-grid"):
                         with gr.Column():
                             img_in = gr.Image(type="pil", label="Upload Image (JPG/PNG)", height=400, elem_classes="input-light")
-                            run_btn = gr.Button("Anaylze my Brain Scan!")
+                            run_btn = gr.Button("Analyze my Brain Scan!")
                         with gr.Column():
                             result_md = gr.Markdown()
                             table_df = gr.Dataframe(
